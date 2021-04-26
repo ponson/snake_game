@@ -20,7 +20,7 @@ BORDER_HEIGHT = 440
 screen = Screen()
 screen.screensize(BORDER_WIDTH, BORDER_HEIGHT)
 screen.bgcolor("black")
-screen.title("Ponson's snake game")
+screen.title("Ponson's snake game round 1")
 screen.tracer(0)
 
 game_border = GameBorder(400, 400)
