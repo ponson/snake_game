@@ -14,7 +14,7 @@ class Snake:
         for i in range(0, 3):
             new_turtle = Turtle()
             new_turtle.shape("square")
-            new_turtle.color("white")
+            new_turtle.color("purple")
             new_turtle.penup()
             new_turtle.setposition(0 - 20*i, 0)
             self.turtles.append(new_turtle)
